@@ -1,5 +1,7 @@
 create database bd_sistema_bancario;
 
+\c bd_sistema_bancario;
+
 create table tabela1 (codigo integer, nome text, telefone integer, endereco varchar);
 					  
 create table tabela2 (id integer, titulo text, descricao varchar);
